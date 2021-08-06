@@ -1,6 +1,7 @@
 # Remarks
 본 repo는 [파이썬 디자인 패턴 2/e (체탄 기리다, 에이콘출판사)](http://www.yes24.com/Product/Goods/67024256?OzSrank=1)의 내용을 정리한 것입니다.  
 
+<br>
 
 # Table of Contents
 [2장. 싱글톤 디자인 패턴](/2장.%20싱글톤%20디자인%20패턴)  
