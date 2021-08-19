@@ -1,8 +1,7 @@
 # 5장. 프록시 패턴 - 객체 접근 제어
 ## 5.1 프록시 디자인 패턴의 개요
-**프록시(proxy)**  
-요청자와 공급자 사이의 중재자 \
-{:.success}
+> **프록시(proxy)**  
+요청자와 공급자 사이의 중재자
 
 ### 5.1.1 Proxy 클래스
 1. 객체의 인터페이스 역할
@@ -25,12 +24,12 @@
 *Subject*와 동일한 인터페이스 구조를 가지기 때문에 실 객체를 대체할 수 있음 \
 *RealSubject* 클래스의 접근을 제어하는 클래스로 *RealSubject*의 생성과 소멸을 담당(composition)
 2. **_Subject_** \
-*RealSubject*와 *Proxy*를 정의하는 인터페이스 \
+*RealSubject*와 *Proxy*를 정의하는 인터페이스
 3. ***RealSubject*** \
 *Proxy*가 대체하는 실 객체 \
 Client가 사용할 기능을 제공
 4. ***Client*** \
-작업을 수행하기 위해 *Proxy* 클래스에 접근 \
+작업을 수행하기 위해 *Proxy* 클래스에 접근
 
 
 <br>
